@@ -43,16 +43,16 @@ ext_modules = [
 ]
 
 setup(
-    name='cython_bbox_fix',
+    name='cython_bbox_og',
     setup_requires=["setuptools>=18.0","Cython","numpy"],
     install_requires=["Cython","numpy"],
     ext_modules=ext_modules,
     cmdclass={'build': build},
-    version = '2023.4.21',
+    version = '1.0.0',
     description = 'Standalone cython_bbox',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url = 'https://github.com/samson-wang/cython_bbox.git', 
-    keywords = ['cython_bbox_fix']
+    url = 'https://github.com/sr99622/cython_bbox_og', 
+    keywords = ['cython_bbox_og']
 )
 
